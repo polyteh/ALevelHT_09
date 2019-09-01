@@ -17,7 +17,7 @@ namespace UniversityConsole
             //read list of students for the file and save in the static collection
             try
             {
-                foreach (string studentName in File.ReadLines("StudentsList.txt"))
+                foreach (string studentName in File.ReadLines("..\\..\\..\\StudentsList.txt"))
                 {
                     Student tempStudent = new Student(studentName);
                     UniversityPeopleStorage.AddStudent(tempStudent);
