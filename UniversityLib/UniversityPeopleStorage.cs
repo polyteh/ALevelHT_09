@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace UniversityLib
 {
+    /// <summary>
+    /// storage all student, teacher and group data in the static collections
+    /// </summary>
     public static class UniversityPeopleStorage
     {
         private static List<Teacher> myStaticTeacherList=new List<Teacher>();
