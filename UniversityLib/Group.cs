@@ -11,7 +11,7 @@ namespace UniversityLib
         private List<Student> studentsInGroup=new List<Student>();
         public Group(int _groupNumber, Teacher _groupTeacher)
         {
-            // i dont like this code. How can I do it more perfect?
+            // i dont like this code (when i change teacher properties in the Group ctr). How can I do it more perfect?
             this.GroupTeacher = _groupTeacher;
             this.GroupNumber = _groupNumber;
             GroupTeacher.GroupNumber = GroupNumber;
